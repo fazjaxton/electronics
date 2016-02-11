@@ -1,19 +1,34 @@
-update=Fri 10 Apr 2015 11:56:59 AM CEST
-last_client=pcbnew
+update=Wed 10 Feb 2016 08:34:12 PM CST
+last_client=eeschema
 [cvpcb]
 version=1
 NetIExt=net
 [cvpcb/libraries]
 EquName1=devcms
-[eeschema]
+[pcbnew]
 version=1
 PageLayoutDescrFile=
-SubpartIdSeparator=0
-SubpartFirstId=65
-LibDir=../libs/ugl/library;../libs/opendous/library;../libs/kiibohd/ICED - Left/lib
+LastNetListRead=left-main.net
+UseCmpFile=0
+PadDrill=0.6
+PadDrillOvalY=0.6
+PadSizeH=1
+PadSizeV=1
+PcbTextSizeV=1.5
+PcbTextSizeH=1.5
+PcbTextThickness=0.3
+ModuleTextSizeV=1
+ModuleTextSizeH=1
+ModuleTextSizeThickness=0.15
+SolderMaskClearance=0
+SolderMaskMinWidth=0
+DrawSegmentWidth=0.2
+BoardOutlineThickness=0.01
+ModuleOutlineThickness=0.25
+[eeschema]
+version=1
+LibDir=../libs/kiibohd/ICED - Left/lib;../libs/opendous/library;../libs/ugl/library
 NetFmtName=
-SpiceForceRefPrefix=0
-SpiceUseNetNumbers=0
 RptD_X=0
 RptD_Y=100
 RptLab=1
@@ -51,23 +66,3 @@ LibName29=contrib
 LibName30=valves
 LibName31=opendous
 LibName32=ICEDLeft
-[pcbnew]
-version=1
-PageLayoutDescrFile=
-LastNetListRead=left-main.net
-UseCmpFile=0
-PadDrill=0.6
-PadDrillOvalY=0.6
-PadSizeH=1
-PadSizeV=1
-PcbTextSizeV=1.5
-PcbTextSizeH=1.5
-PcbTextThickness=0.3
-ModuleTextSizeV=1
-ModuleTextSizeH=1
-ModuleTextSizeThickness=0.15
-SolderMaskClearance=0
-SolderMaskMinWidth=0
-DrawSegmentWidth=0.2
-BoardOutlineThickness=0.01
-ModuleOutlineThickness=0.25
